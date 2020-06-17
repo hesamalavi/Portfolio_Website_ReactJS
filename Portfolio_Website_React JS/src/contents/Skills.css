@@ -1,0 +1,28 @@
+.skills-div h1 {
+    /* margin-bottom: 200px; */
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    grid-gap: 20px;
+    justify-items: center;
+    align-content: flex-start;
+    align-items: start;
+    margin: 80px;
+}
+
+.single-skill {
+    /* margin: 0 20px 0 20px; */
+
+    /* color: white; */
+    font-size: 6vw;
+}
+
+/* @media all and (max-width: 960px) {
+    .skills {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 20px 0 20px;
+    }
+} */

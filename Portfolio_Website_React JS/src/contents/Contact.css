@@ -1,0 +1,34 @@
+.contact-form {
+    display: grid;
+    grid-gap: 30px;
+    background: bisque;
+    width: auto;
+    /* height: 100%; */
+    margin: 30px;
+    /* height: 0; */
+    padding: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'email'
+        'message'
+        'button';
+
+    /* flex-direction: row; */
+}
+
+.contact-email {
+    grid-area: email;
+    background-color: #8ca0ff;
+}
+.contact-message {
+    grid-area: message;
+    background-color: #ff8ce2;
+}
+.contact-button {
+    grid-area: button;
+    background-color: #99ff8c;
+}
+
+.error-message {
+}
